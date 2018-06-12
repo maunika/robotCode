@@ -1,8 +1,0 @@
-*** Settings ***
-	Library  com.robot.cal.Calculator
-	     *** Test Cases ***
-Calculator Test
-    set X Value  10
-    set Y Value  15	
-	${sum}	getSum
-	Assert Sum  ${sum}  25
