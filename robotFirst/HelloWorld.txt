@@ -1,0 +1,4 @@
+*** Settings ***
+Library  Hello.py
+*** Test Cases ***
+Hello  Hello World
